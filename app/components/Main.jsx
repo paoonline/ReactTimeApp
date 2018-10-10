@@ -8,6 +8,7 @@ var Main = (props)=>{
             <div>
                 <Navigation/>
                <p>Main.sx Rendered</p>
+               {props.children}
             </div>
         </div>
         </div>
